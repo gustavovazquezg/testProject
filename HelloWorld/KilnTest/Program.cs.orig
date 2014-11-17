@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace KilnTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("What's your name?");
+            var name = Console.ReadLine();
+            Console.WriteLine("And what's your sur name?");
+            var surName = Console.ReadLine();
+            Console.WriteLine("Your full name is {0} {1}... see you later!", name, surName);
+            Console.Read();
+        }
+    }
+}
